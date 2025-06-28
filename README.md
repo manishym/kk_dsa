@@ -19,6 +19,9 @@ knowledge-knights-dsa/
 ├── notes/                      # Detailed lecture notes and materials
 │   └── lecture1_arrays_and_time_complexiety/
 │       └── notes1.pdf
+├── problem_hints/              # Problem-solving hints and solutions
+│   ├── lecture1_arrays_and_time_complexiety/
+│   └── lc_287_medium_find_the_duplicate_number.md
 ├── .venv/                      # Python virtual environment
 └── README.md                   # This file
 ```
@@ -54,6 +57,21 @@ knowledge-knights-dsa/
   - Array data structure fundamentals
   - Problem-solving strategies and techniques
   - Practice problems and solutions
+
+#### 🧩 Problem Hints and Solutions (`problem_hints/`)
+- **Purpose**: Step-by-step problem-solving guidance and multiple solution approaches
+- **Contents**:
+  - **LeetCode-style problems**: Real-world coding challenges with detailed hints
+  - **Multiple solution approaches**: From basic to advanced techniques
+  - **Time and space complexity analysis**: For each solution approach
+  - **Algorithm explanations**: Detailed breakdowns of how solutions work
+  - **Progressive difficulty**: Starting with easy approaches and building to advanced techniques
+
+**Example Problem**: `lc_287_medium_find_the_duplicate_number.md`
+- **Easy Approach**: Set-based solution with O(n) time and space complexity
+- **Advanced Approach**: Floyd's cycle detection (Hare and Tortoise) with O(n) time and O(1) space
+- **Mathematical proofs**: Detailed explanations of why algorithms work
+- **Implementation guidance**: Step-by-step hints for solving the problem
 
 ## 🚀 Getting Started
 
@@ -107,10 +125,34 @@ knowledge-knights-dsa/
    - Modify the code to experiment with different approaches
    - Try implementing similar algorithms on your own
 
-4. **Hands-on Practice**:
+4. **Problem-Solving Practice**:
+   - **Attempt problems first**: Try solving problems in `problem_hints/` without looking at hints
+   - **Use progressive hints**: Start with easy approaches, then explore advanced solutions
+   - **Understand multiple approaches**: Study how the same problem can be solved differently
+   - **Analyze complexity**: Compare time and space complexity of different solutions
+
+5. **Hands-on Practice**:
    - Implement the algorithms from scratch
    - Compare your implementations with the provided examples
    - Measure and analyze performance differences
+   - Apply learned concepts to new problems
+
+## 🧩 Using Problem Hints Effectively
+
+### Problem-Solving Strategy
+1. **Read the problem statement carefully** - understand the requirements and constraints
+2. **Try to solve independently first** - spend 15-20 minutes attempting your own solution
+3. **Start with the easy approach** - implement the basic solution before optimizing
+4. **Study the advanced approach** - understand the mathematical reasoning behind efficient solutions
+5. **Implement both approaches** - practice coding both the basic and optimized versions
+6. **Compare performance** - measure and analyze the differences in time and space complexity
+
+### Example: Find the Duplicate Number
+- **Step 1**: Try solving with a simple approach (using a set)
+- **Step 2**: Understand why this works and its limitations
+- **Step 3**: Study the Floyd's cycle detection approach
+- **Step 4**: Implement both solutions and compare their performance
+- **Step 5**: Apply similar thinking patterns to related problems
 
 ## 🔧 Running Code Examples
 
