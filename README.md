@@ -11,17 +11,13 @@ This project is structured to provide a hands-on learning experience for Data St
 ```
 knowledge-knights-dsa/
 ├── jupyter_notebooks/          # Interactive learning notebooks
-│   └── lecture1_arrays_and_time_complexiety/
-│       └── time_complexiety.ipynb
+│   Notebooks used to demonstrate complexieties.
 ├── lecture_code/               # Practical code implementations
-│   └── lecture1_arrays_and_time_complexiety/
-│       └── fib.py
+│   Code that was used during lecture.
 ├── notes/                      # Detailed lecture notes and materials
-│   └── lecture1_arrays_and_time_complexiety/
-│       └── notes1.pdf
+|   Notes which were used during lecture discussion.
 ├── problem_hints/              # Problem-solving hints and solutions
-│   ├── lecture1_arrays_and_time_complexiety/
-│   └── lc_287_medium_find_the_duplicate_number.md
+│   hints about problems organized lecture wise.
 ├── .venv/                      # Python virtual environment
 └── README.md                   # This file
 ```
@@ -49,29 +45,7 @@ knowledge-knights-dsa/
   - Command-line interface for testing different input sizes
   - Demonstrates the difference between naive and optimized approaches
 
-#### 📄 Lecture Notes (`notes1.pdf`)
-- **Purpose**: Comprehensive theoretical foundation
-- **Contents**:
-  - Detailed explanations of time complexity concepts
-  - Mathematical foundations of Big O notation
-  - Array data structure fundamentals
-  - Problem-solving strategies and techniques
-  - Practice problems and solutions
 
-#### 🧩 Problem Hints and Solutions (`problem_hints/`)
-- **Purpose**: Step-by-step problem-solving guidance and multiple solution approaches
-- **Contents**:
-  - **LeetCode-style problems**: Real-world coding challenges with detailed hints
-  - **Multiple solution approaches**: From basic to advanced techniques
-  - **Time and space complexity analysis**: For each solution approach
-  - **Algorithm explanations**: Detailed breakdowns of how solutions work
-  - **Progressive difficulty**: Starting with easy approaches and building to advanced techniques
-
-**Example Problem**: `lc_287_medium_find_the_duplicate_number.md`
-- **Easy Approach**: Set-based solution with O(n) time and space complexity
-- **Advanced Approach**: Floyd's cycle detection (Hare and Tortoise) with O(n) time and O(1) space
-- **Mathematical proofs**: Detailed explanations of why algorithms work
-- **Implementation guidance**: Step-by-step hints for solving the problem
 
 ## 🚀 Getting Started
 
@@ -178,42 +152,5 @@ By the end of this module, students should be able to:
 - **Apply Dynamic Programming**: Solve problems using memoization and optimization techniques
 - **Think Algorithmically**: Approach problems with efficiency in mind
 
-## 🎯 Key Concepts Covered
 
-- **Big O Notation**: Understanding algorithmic complexity
-- **Time Complexity Analysis**: O(1), O(log n), O(n), O(n log n), O(n²), O(n³), O(2ⁿ)
-- **Performance Measurement**: Practical timing and analysis
-- **Dynamic Programming**: Efficient problem-solving techniques
-- **Array Manipulation**: Fundamental data structure operations
-- **Algorithmic Thinking**: Problem-solving methodology
 
-## 🤝 Contributing
-
-This project is designed for educational purposes. If you're an instructor or student and would like to contribute:
-
-1. Add new lecture modules following the existing structure
-2. Improve existing implementations
-3. Add more practice problems
-4. Enhance visualizations and examples
-
-## 📝 Notes for Instructors
-
-- Each module is self-contained but builds upon previous concepts
-- The interactive notebooks allow students to experiment and learn by doing
-- The code examples demonstrate best practices and efficient implementations
-- Encourage students to modify and experiment with the provided code
-- Use the performance measurements to discuss real-world implications
-
-## 🔮 Future Modules
-
-This project is designed to expand with additional DSA topics:
-- Data Structures (Linked Lists, Trees, Graphs, Heaps)
-- Advanced Algorithms (Sorting, Searching, Graph Algorithms)
-- Advanced Techniques (Divide and Conquer, Greedy Algorithms)
-- Problem-Solving Strategies and Interview Preparation
-
----
-
-**Happy Learning! 🚀**
-
-*This project is designed to make DSA concepts accessible and engaging for fresh graduates entering the world of software development.* 
